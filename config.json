@@ -1,0 +1,19 @@
+{
+  "period": 60,
+  "sites": {
+    "https://www.bbc.com" : "bbc",
+    "https://www.euronews.com" : ""
+  },
+  "kafka": {
+    "server": "kafka-c6ba0a3-dtdk-00c7.aivencloud.com:19172",
+    "topic": "checksite"
+  },
+  "postgres": {
+    "host": "pg-c0a2009-dtdk-00c7.aivencloud.com",
+	"port": 19170,
+    "db": "defaultdb",
+    "user": "avnadmin",
+	"password": "revb3i1qoplx7q4g",
+    "table": "checksites"
+  }
+}
